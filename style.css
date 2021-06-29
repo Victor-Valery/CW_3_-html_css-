@@ -1,7 +1,55 @@
+/* The Overflow Property */
+
 div.first {
-    overflow: hidden;
+  overflow: hidden;
 }
 div.second {
-     overflow-x: hidden; /* Hide horizontal scroolbar */
-    overflow-y: scroll;  /* Add vertical scroolbar */
+  overflow-x: hidden; /* Hide horizontal scroolbar */
+  overflow-y: scroll; /* Add vertical scroolbar */
 }
+
+/* The Float Properties */
+
+img {
+  float: inline-endright;
+}
+div {
+  clear: left;
+}
+img {
+  width: 300px;
+  height: 150px;
+  margin-right: 20px;
+  float: left;
+}
+
+/* Opacity, Transparency */
+
+#img1 {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+#img2 {
+    width: 300px;
+    opacity: 0.7;
+}
+/* 
+The Units in CSS
+
+cm: centimeters
+mm: millimeters
+in: inches (1in = 96px = 2.54cm)
+px:  pixels (1px = 1/96th of 1in)
+pt: points (1pt = 1/72 of 1in)
+pc: picas (1pc = 12 pt) */
+
+/* 
+em: Relative to the font-size of the element
+ex: Relative to the x-height of the current font
+ch: Relative to width of the "0"
+rem:    Relative to font-size of the root element
+vw: Relative to 1% of the width of the viewport
+vh: Relative to 1% of the height of the viewport
+vmin:   Relative to 1% of viewport's* smaller dimension
+vmax:   Relative to 1% of viewport's* larger dimension
+%:  Relative to the parent element */
