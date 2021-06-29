@@ -1,0 +1,7 @@
+div.first {
+    overflow: hidden;
+}
+div.second {
+     overflow-x: hidden; /* Hide horizontal scroolbar */
+    overflow-y: scroll;  /* Add vertical scroolbar */
+}
